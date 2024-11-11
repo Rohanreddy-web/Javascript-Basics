@@ -1,0 +1,19 @@
+.cont{
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: black;
+    height: 25vh;
+    width: 25vw;
+    transition: all 3s 2s ease-in-out;
+}
+.box:hover{
+    transform: rotate(1turn);
+    border-radius: 100px;
+}

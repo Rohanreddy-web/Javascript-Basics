@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 50vh;
+            height: 60vh;
+            border: 2px solid black;
+        }
+
+        .box {
+            width: 10%;
+            height: 10%;
+            border: 2px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <script>
+        let b = document.querySelectorAll(".box")
+        for(let i=0; i<b.length;i++){
+            let r=b[i]
+            console.log(r)
+            r.style.backgroundColor="red"
+        }
+        console.log(b)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+Mouse Events:
+click: Occurs when the user clicks the mouse button on an element.
+dblclick: Occurs when the user double-clicks the mouse button on an element.
+mousedown: Occurs when the user presses the mouse button on an element.
+mouseup: Occurs when the user releases the mouse button on an element.
+mousemove: Occurs when the user moves the mouse pointer over an element.
+mouseover: Occurs when the user moves the mouse pointer over an element.
+mouseout: Occurs when the user moves the mouse pointer out of an element.
+contextmenu: Occurs when the user right-clicks on an element.
+
+
+
+Keyboard Events:
+keydown: Occurs when the user presses a key on the keyboard.
+keypress: Occurs when the user presses a key on the keyboard and releases it.
+keyup: Occurs when the user releases a key on the keyboard.

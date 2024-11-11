@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
+.d{
+    background-color: red;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    font-size: larger;
+    font-style: italic;
+    height: 40vh;
+    width: 40vw;
+    color: aliceblue;
+    
+
+}
+ul li{
+    color: green;
+}
+.red :hover{
+    background-color: rgb(232, 138, 15);
+}

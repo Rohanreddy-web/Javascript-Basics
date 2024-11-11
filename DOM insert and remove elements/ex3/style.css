@@ -1,0 +1,102 @@
+/* * {
+  padding: 0px;
+  margin: 0px;
+} */
+
+.box {
+  width: 50vw;
+  height: 20vh;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.34);
+  padding-bottom: 10px;
+
+}
+
+.image {
+  right: 0px;
+  top: 5px;
+}
+
+.name {
+  position: relative;
+  text-align: center;
+  bottom: 80px;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.view span {
+  position: relative;
+  left: 15vw;
+  bottom: 3vh;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.view > span:nth-child(2) {
+  position: relative;
+  left: 15vw;
+  bottom: 3vh;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+section {
+  background-color: rgba(128, 128, 128, 0.34);
+  height: 6px;
+  border-radius: 2px;
+  position: relative;
+  z-index: 10;
+  bottom: 10px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid white;
+  min-height: 30px;
+  min-width: 80px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 90px;
+}
+
+.color {
+  background-color: red;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+body {
+  background-color: black;
+}
+
+.songs {
+  background-color: rgb(46, 44, 44);
+  color: white;
+  width: 22vw;
+  height: 40vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.2em;
+  border-radius: 0.5vw;
+  position: relative;
+  right: 10px;
+  bottom: 90px;
+  
+}
+
+h1 {
+  color: red;
+  display: inline-block;
+}
+
+.start {
+  display: flex;
+}
+

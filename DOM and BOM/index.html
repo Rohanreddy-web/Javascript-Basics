@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 50px;
+            width: 50px;
+            border: 2px solid red;
+            margin-top: 2px;
+            text-align: center;
+
+        }
+
+        .cont {
+            height: 80vh;
+            width: 80vw;
+            border: 2px solid black;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            row-gap: 20px
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <!-- <div class="box">box 2.5</div> -->
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+        <div class="box" id="red box">box6</div>
+        <input type="text" name="rohan">
+        <input type="text" name="rohan">
+        <input type="text" name="rohan">
+        <input type="text" name="rohan">
+    </div>
+ <script>
+let a= document.body.childNodes[1].children[3].style.backgroundColor="skyblue"
+
+console.log(a)
+ </script>
+</body>
+
+</html>

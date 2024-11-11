@@ -1,0 +1,18 @@
+# number=123
+# outout=321
+# logic 
+# number
+# reverse=0
+# while number not equal to 0
+# number %10 store reminder 2
+# reverse=revers *10 + reminder 
+# number=number/10
+# 12
+# #revers of a number
+# n=int(input("enter a number"))
+# rev=0
+# while n!=0:
+#       rem=n%10
+#       rev=rev*10+rem
+#       n=n//10
+# print ("print revers of number:",rev)
